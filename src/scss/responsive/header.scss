@@ -1,0 +1,43 @@
+@media screen and (max-width: 920px) {
+  .header {
+    &__body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .datepicker {
+    flex-direction: column;
+
+    .left-input {
+      margin: 15px 0 50px 0;
+    }
+  }
+  .datepicker-to {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    &__body-title {
+      flex-direction: column;
+    }
+  }
+  .title {
+    &__name {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+  }
+  .info {
+    text-align: center;
+    span {
+      line-height: 25px;
+    }
+  }
+}

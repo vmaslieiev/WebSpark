@@ -1,0 +1,11 @@
+.wrapper {
+  max-width: $maxWidthContainer + px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  background: url('../img/header-logo.png') no-repeat;
+  background-position: top left;
+  background-color: #fafafa;
+}

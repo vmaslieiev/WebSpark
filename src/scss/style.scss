@@ -1,0 +1,14 @@
+// Desktop
+
+@import 'vars';
+@import 'main';
+@import 'fonts';
+@import 'reset';
+@import 'header';
+@import 'content';
+
+
+// responsive
+
+@import 'responsive/header.scss';
+@import 'responsive/content.scss';

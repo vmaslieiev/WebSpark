@@ -1,0 +1,259 @@
+.content {
+  width: 100%;
+  margin: 0 auto;
+  background: url("../img/content-img.png") no-repeat;
+  background-position: bottom right;
+  &__switcher {
+    margin: 20px 0 30px 0;
+  }
+}
+
+.switcher {
+  display: flex;
+  justify-content: flex-end;
+}
+.grid {
+  display: flex;
+  margin-left: 22px;
+  cursor: pointer;
+  &__on {
+    position: absolute;
+    z-index: -1;
+  }
+  .active {
+    z-index: 1;
+  }
+}
+.list {
+  display: flex;
+  cursor: pointer;
+  &__on {
+    position: absolute;
+  }
+  .none-active {
+    z-index: -1;
+  }
+  .active {
+    z-index: 1;
+  }
+}
+
+// LIST STYLE START
+
+.gallery {
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $white-color;
+    margin-bottom: 10px;
+  }
+  &__item-pic {
+    font-size: 0;
+  }
+  &__item-upload {
+    margin-right: 50px;
+  }
+}
+.today {
+  font-size: 17px;
+  font-weight: bold;
+  font-family: $proxima-nova;
+  &__title {
+    margin-bottom: 12px;
+  }
+  &__info {
+    display: flex;
+  }
+  &__info-likes {
+    display: flex;
+    align-items: center;
+    margin-right: 22px;
+    p {
+      margin-left: 5px;
+    }
+  }
+  &__info-comments {
+    display: flex;
+    align-items: center;
+    p {
+      margin-left: 7px;
+    }
+  }
+}
+.lastdate {
+  font-size: 17px;
+  font-weight: bold;
+  font-family: $proxima-nova;
+  &__title {
+    margin-bottom: 12px;
+  }
+  &__info {
+    display: flex;
+  }
+  &__info-likes {
+    display: flex;
+    align-items: center;
+    margin-right: 28px;
+    p {
+      margin-left: 5px;
+    }
+  }
+  &__info-comments {
+    display: flex;
+    align-items: center;
+    p {
+      margin-left: 7px;
+    }
+  }
+}
+.upload {
+  font-size: 17px;
+  font-weight: bold;
+  font-family: $helvetica;
+  &__title {
+    margin-bottom: 12px;
+  }
+}
+
+// LIST STYLE END
+
+// GRID STYLE START
+
+.grid-item-bg1 {
+  background: url('../img/gallery-grid1.png') no-repeat;
+  margin-bottom: 30px;
+}
+.grid-item-bg2 {
+  background: url('../img/gallery-grid2.png') no-repeat;
+  margin-bottom: 30px;
+}
+.grid-item-bg3 {
+  background: url('../img/gallery-grid3.png') no-repeat;
+  margin-bottom: 30px;
+}
+.grid-item-bg4 {
+  background: url('../img/gallery-grid4.png') no-repeat;
+  margin-bottom: 30px;
+}
+.grid-item-bg5 {
+  background: url('../img/gallery-grid5.png') no-repeat;
+  margin-bottom: 30px;
+}
+.grid-item-bg6 {
+  background: url('../img/gallery-grid6.png') no-repeat;
+  margin-bottom: 30px;
+}
+.grid-item-bg7 {
+  background: url('../img/gallery-grid7.png') no-repeat;
+  margin-bottom: 30px;
+}
+.grid-item-bg8 {
+  background: url('../img/gallery-grid8.png') no-repeat;
+  margin-bottom: 30px;
+}
+.grid-item-bg9 {
+  background: url('../img/gallery-grid9.png') no-repeat;
+}
+
+.ds-none {
+  display: none !important;
+}
+.gallery-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  &__item {
+    width: 291px;
+    height: 291px;
+  }
+}
+.grid-item {
+  color: $white-color;
+  font-size: 17px;
+  font-family: $proxima-nova;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.today-grid {
+  display: flex;
+  margin-bottom: 20px;
+  &__title {
+    margin-left: 20px;
+  }
+  &__info {
+    display: flex;
+    margin-left: 57px;
+  }
+  &__info-likes {
+    display: flex;
+    align-items: center;
+    p {
+      margin-left: 5px;
+    }
+  }
+  &__info-comments {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    p {
+      margin-left: 5px;
+    }
+  }
+}
+.lastdate-grid {
+  display: flex;
+  margin-bottom: 29px;
+  &__title {
+    margin-left: 20px;
+  }
+  &__info {
+    display: flex;
+    margin-left: 23px;
+  }
+  &__info-likes {
+    display: flex;
+    align-items: center;
+    p {
+      margin-left: 5px;
+    }
+  }
+  &__info-comments {
+    display: flex;
+    align-items: center;
+    margin-left: 28px;
+    p {
+      margin-left: 5px;
+    }
+  }
+}
+.upload-grid {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  &__title {
+    margin-right: 5px;
+  }
+}
+
+// GRID STYLE END
+
+.button {
+  text-align: center;
+  margin: 45px 0 75px 0;
+  .btn {
+    border: 1px solid $main-text-color;
+    border-radius: 30px;
+    background-color: transparent;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all 1s ease;
+    outline: none;
+    &:hover {
+      background-color: #5e6d8f;
+      color: $white-color;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+// Mariad Pro Regular
+
+@font-face {
+	font-family: 'MyriadProRegular';
+	src: url("../fonts/MyriadProRegular.eot");
+	src: url("../fonts/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MyriadProRegular.woff") format("woff"),
+	url("../fonts/MyriadProRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+// ProximaNova Bold
+
+@font-face {
+	font-family: 'ProximaNovaRg';
+	src: url('../fonts/ProximaNova-Bold.eot');
+	src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ProximaNova-Bold.woff') format('woff'),
+		url('../fonts/ProximaNova-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+// Helvetica Bold
+
+@font-face {
+	font-family: "HelveticaBold";
+	src: url("../fonts/HelveticaBold.eot");
+	src: url("../fonts/HelveticaBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/HelveticaBold.woff") format("woff"),
+	url("../fonts/HelveticaBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: bold;
+}

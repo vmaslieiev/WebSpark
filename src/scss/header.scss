@@ -1,0 +1,135 @@
+.header {
+  width: 100%;
+  margin: 0 auto;
+  height: 197px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 10px 12px -12px rgba(0,0,0,0.1);
+  font-family: $mariad-pro-reg;
+  &__body {
+    padding-top: 45px;
+    margin: 0px 0px 0px 150 / $maxWidthContainer * 100vw;
+  }
+  &__body-title {
+    display: flex;
+    align-items: center;
+  }
+  &__body-info {
+    display: flex;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.title {
+  &__name {
+    font-size: 35px;
+    margin-right: 20px;
+  }
+  &__start {
+    a {
+      color: $header-start-color;
+      padding: 5px;
+      text-decoration: none;
+      border: 1px solid $header-start-color;
+      border-radius: 3px;
+      font-size: calc(10px + 5 * (100vw / 1622));
+    }
+  }
+}
+.info {
+  font-size: 17px;
+  margin: 20px 0;
+  span {
+    font-weight: bold;
+  }
+  &__posts {
+    margin-right: 30px;
+  }
+  &__followers {
+    margin-right: 30px;
+  }
+}
+.datepicker {
+  display: flex;
+  align-items: center;
+  h3 {
+    margin-right: 13px;
+  }
+
+  .left-input {
+    display: flex;
+  }
+  .right-input {
+    display: flex;
+  }
+}
+input {
+  padding: 5px;
+  border: 1px solid #cccccc;
+  border-right: none;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  outline: none;
+  color: #333333;
+  letter-spacing: 1px;
+  font-weight: 600;
+  &::placeholder {
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+  }
+  &:focus::placeholder {
+    color: transparent;
+  }
+}
+.datepicker-clear {
+  height: 25px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #cccccc;
+  background-color: #ebebeb;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.datepicker-cal {
+  height: 25px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #cccccc;
+  background-color: #ebebeb;
+  padding: 0 10px;
+  cursor: pointer;
+  border-left: none;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.datepicker-to {
+  margin-left: 25px;
+}
+
+// custom settings for datepicker
+
+.ui-datepicker {
+  margin-top: 3px;
+  width: 14em;
+}
+.ui-widget-header {
+  background: none;
+  border: none;
+}
+.ui-state-default,
+.ui-widget-content .ui-state-default {
+  border: none;
+  background: none;
+  text-align: center;
+  &:hover {
+    color: white;
+    background-color: $header-start-color;
+    border-radius: 5px;
+  }
+}
+
+// end of custom settings
