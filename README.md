@@ -8,8 +8,8 @@ https://vmaslieiev.github.io/WebSpark/
 
 ANOTHER LINKS OF MY WEBSITES
 
-https://vmaslieiev.github.io/Avilton-DA/
-https://vmaslieiev.github.io/EleonorSoft/
-https://vmaslieiev.github.io/WebDen/
-https://vmaslieiev.github.io/LevelUp/
-https://vmaslieiev.github.io/john_smith_portfolio_project/
+1 - https://vmaslieiev.github.io/Avilton-DA/
+2 - https://vmaslieiev.github.io/EleonorSoft/
+3 - https://vmaslieiev.github.io/WebDen/
+4 - https://vmaslieiev.github.io/LevelUp/
+5 - https://vmaslieiev.github.io/john_smith_portfolio_project/
