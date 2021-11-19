@@ -7,7 +7,9 @@
   font-family: $mariad-pro-reg;
   &__body {
     padding-top: 45px;
-    margin: 0px 0px 0px 150 / $maxWidthContainer * 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   &__body-title {
     display: flex;
