@@ -1,6 +1,6 @@
 $('#more-btn').on('click', function() {
-    let divChildren = $('.gallery').children(':random').clone();
-    let divGridChildren = $('.gallery-grid').children(':random').clone();
+    let divChildren = $('.gallery').children(':first').clone();
+    let divGridChildren = $('.gallery-grid').children(':first').clone();
     console.log('click klack', divChildren);
     // if ( ($('.gallery')).is(':visible') || ($('.gallery-grid')).is(':visible')) {
     //     $('.gallery').hide('slow')
